@@ -1,0 +1,25 @@
+.container {
+    overflow: hidden;
+    border-radius: 50%;
+    top: 20px; 
+    left: 40px;
+    position: absolute;
+}
+
+#my_canvas{
+    background: radial-gradient(circle, #75544c, #000000);
+    z-index: 1;
+    position: absolute;
+}
+
+fieldset {
+    position: absolute;
+    z-index: 1;
+    border: none;
+    color: rgb(214, 153, 112);
+}
+#wayBackGround{
+    width: 950px;
+    height: 930px;
+    background-color: #000000;
+}

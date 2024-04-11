@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Fractal Dandelion</title>
+</head>
+<body>
+    <div class="container" id="container">
+        <canvas id="my_canvas" width="900" height="900" ></canvas>
+    </div>
+    <fieldset>
+        <legend>Branch Angles</legend>
+
+        <label for="rotationMultiplierInput">Speed:</label>
+        <input type="number" id="rotationMultiplierInput" value="4000" min="100" step="100"><br>
+        
+        <label for="angleInput1">Angle 1:</label>
+        <input type="number" id="angleInput1" value="90" min="0" max="360"><br>
+
+        <label for="angleInput2">Angle 2:</label>
+        <input type="number" id="angleInput2" value="90" min="0" max="360"><br>
+
+        <label for="angleInput3">Angle 3:</label>
+        <input type="number" id="angleInput3" value="180" min="0" max="360"><br>
+
+        <label for="angleInput4">Angle 4:</label>
+        <input type="number" id="angleInput4" value="180" min="0" max="360"><br>
+    </fieldset>
+    <div id="wayBackGround"></div>
+    <script src="script.js"></script>
+</body>
+</html>
