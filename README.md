@@ -15,3 +15,6 @@ Angles:
     Or try other variables, there are a lot of different things to see.
 
 ![alt text](fractal-dandelion4.jpg)
+![alt text](fractal-dandelion3.jpg)
+![alt text](fractal-dandelion2.jpg)
+![alt text](fractal-dandelion1.jpg)
